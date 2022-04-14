@@ -18,11 +18,11 @@ namespace Bitmoji.BitmojiForGames
         }
 
         private const string BFG_BASE_URL = "https://bitmoji.api.snapchat.com/bitmoji-for-games";
-        private const string AVATAR_URL = BFG_BASE_URL + "/model";
+        private const string AVATAR_URL = BFG_BASE_URL + "/model/";
         private const string DEFAULT_AVATAR_URL = BFG_BASE_URL + "/default_avatar";
-        private const string ANIMATION_URL = BFG_BASE_URL + "/animation";
+        private const string ANIMATION_URL = BFG_BASE_URL + "/animation/";
         private const string TEST_AVATAR_URL = BFG_BASE_URL + "/test_avatar";
-        private const string PROP_URL = BFG_BASE_URL + "/prop";
+        private const string PROP_URL = BFG_BASE_URL + "/prop/";
 
         private const string SDK_BASE_URL = "https://sdk.bitmoji.com";
         private const string STICKER_URL = SDK_BASE_URL + "/me/sticker";
